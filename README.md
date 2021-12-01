@@ -1,2 +1,4 @@
 # data_structure_implementations
-all implemntations in c++
+https://twitter.com/abdullahhakimam
+All implemntations in C++
+
