@@ -1,4 +1,29 @@
-q1:
+/*1. Create a student Record Management system Using Linked List that can perform the
+following operations:
+(1)Insert Student record
+(2) Delete student record
+(3)Show student record
+(4)Search student record
+The student record should contain the following items:
+- Name of Student
+- Roll Number of Student
+- Course in which Student is Enrolled
+- Total Marks of Student
+More Explanation for understand:
+- heck Record: It is a utility function of creating a record it checks before insertion
+that the Record Already Exist or not. It uses the concept of checking for a Node
+with given Data in a linked list.
+- reate Record: It is as simple as creating a new node in the Empty Linked list or
+inserting a new node in a non-Empty linked list.
+- earch Record: Search a Record is similar to searching for a key in the linked list.
+Here in the student record key is the roll number as roll number is unique for every
+student.
+- elete Record: Delete Record is similar to deleting a key from a linked list. Here
+the key is the roll number. Delete record is an integer returning function it returns -
+1 if no such record with a given roll number is found otherwise it deletes the node
+with the given key and returns 0.
+- Show Record: It shows the record is similar to printing all the elements of the
+Linked list.*/
 #include<iostream>
 #include<string>
 #include<cassert>
